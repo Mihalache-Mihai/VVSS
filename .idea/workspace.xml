@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.Test1.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.Test1.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.Test2.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.Test2.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.Test1.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.Test1.txt" />
-    </list>
+    <list default="true" id="d4655333-8af9-4c77-ab80-3f36d85e6663" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -419,7 +413,7 @@
       <workItem from="1553351944409" duration="27000" />
       <workItem from="1553531853089" duration="824000" />
       <workItem from="1553533347197" duration="576000" />
-      <workItem from="1553533955256" duration="282000" />
+      <workItem from="1553533955256" duration="666000" />
     </task>
     <servers />
   </component>
@@ -432,7 +426,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7014000" />
+    <option name="totallyTimeSpent" value="7398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
