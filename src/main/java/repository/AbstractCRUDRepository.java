@@ -24,6 +24,9 @@ public abstract class AbstractCRUDRepository<ID, E extends HasID<ID>> implements
             return entities.get(id);
         }
     }
+    public Integer getSize(){
+        return entities.size();
+    }
 
     @Override
     public Iterable<E> findAll() { return entities.values(); }
