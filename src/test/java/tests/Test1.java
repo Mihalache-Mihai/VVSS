@@ -11,6 +11,18 @@ import static org.junit.Assert.*;
 public class Test1 {
 
     @Test
+    public void testConcatenate(){
+        testAddStudentSuccess();
+        testSameIdStudentTwice();
+        testGroupOk();
+        testInvalidGroup();
+        testInvalidGroup2();
+        testInvalidName();
+        testInvalidName2();
+        testIDNull();
+    }
+
+    @Test
     public void testAddStudentSuccess() {
         StudentValidator sv = new StudentValidator();
         StudentRepository studentRepository = new StudentRepository(sv);
