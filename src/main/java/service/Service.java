@@ -22,6 +22,8 @@ public class Service {
 
     public Iterable<Tema> findAllTeme() { return temaXmlRepo.findAll(); }
 
+    public int getAllTeme(){return temaXmlRepo.getSize();}
+
     public Iterable<Nota> findAllNote() { return notaXmlRepo.findAll(); }
 
     public int saveStudent(String id, String nume, int grupa) {
@@ -41,7 +43,10 @@ public class Service {
         if (result == null) {
             return 1;
         }
-        return 0;
+        else{
+            return 0;
+        }
+
     }
 
     public int saveNota(String idStudent, String idTema, double valNota, int predata, String feedback) {
