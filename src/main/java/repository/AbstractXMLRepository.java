@@ -14,6 +14,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public abstract class AbstractXMLRepository<ID, E extends HasID<ID>> extends AbstractCRUDRepository<ID, E> {
@@ -50,6 +51,9 @@ public abstract class AbstractXMLRepository<ID, E extends HasID<ID>> extends Abs
         }
         catch(SAXException s) {
             s.printStackTrace();
+        }
+        catch (FileNotFoundException fi) {
+            //System.out.println("No file with the provided name found");
         }
         catch(IOException i) {
             i.printStackTrace();
