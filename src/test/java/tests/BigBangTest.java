@@ -14,20 +14,22 @@ public class BigBangTest extends BaseServiceTest {
 
     @Test
     public void test_saveTemaValid() throws Exception {
+        this.test_saveStudentValid();
         this.service.saveTema("1", "Some good homework", 10, 2);
         assertEquals(1, StreamSupport.stream(this.service.findAllTeme().spliterator(), false).count());
     }
 
     @Test
     public void test_saveGradeValid() throws Exception {
+        this.test_saveTemaValid();
         this.service.saveNota("1", "1", 10, 5, "Good");
         assertEquals(0, StreamSupport.stream(this.service.findAllNote().spliterator(), false).count());
     }
 
-    @Test
-    public void test_Bang() throws Exception {
-        this.test_saveStudentValid();
-        this.test_saveTemaValid();
-        this.test_saveGradeValid();
-    }
+//    @Test
+//    public void test_Bang() throws Exception {
+//        this.test_saveStudentValid();
+//        this.test_saveTemaValid();
+//        this.test_saveGradeValid();
+//    }
 }
